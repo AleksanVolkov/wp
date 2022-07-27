@@ -1,0 +1,263 @@
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0 0 5px;
+    padding: 0;
+
+}
+p{
+    margin: 0;padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.title_checkout
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    box-sizing:border-box;
+    width: 360px;;
+    margin: 300px auto 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.line
+{
+    border-bottom: 1px solid black;
+    width: 340px;
+    margin: 0 auto 22px;
+}
+.input
+{
+    width: 865px;
+    height: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 30px;
+    box-sizing:border-box;
+
+}
+.input_checkout
+{
+    position: relative;
+    margin-bottom: 11px;
+
+}
+.input_field
+{
+    margin: 0 auto;
+    width: 865px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.svg_one
+{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.date
+{
+    display: flex;
+    justify-content: space-between;
+}
+#date{
+    margin-right: 15px;
+    
+}
+#time{
+    margin-left: 15px;
+}
+.img_date
+{
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    right: 455px;
+    top: 17px;
+}
+.img_time
+{
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    right: 8px;
+    top: 17px;
+}
+textarea
+{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 17px;
+   font-weight: 300;
+   line-height: 28px;
+   letter-spacing: 0em;
+   text-align: left;
+   padding-left: 30px;
+
+   
+}
+.sale_box
+{
+    width: 432px;
+    height: 173px;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 57px;
+    margin-left: 28px;
+    position: relative;
+}
+.sale_img
+{
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    top: 9px;
+    right: 23px;
+}
+.sale_text
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffff;
+    margin-left: 25px;
+    margin-top: 21px;
+
+}
+.sale_text.text_two{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sale_text.text_three{
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 300;
+}
+.input_sale
+{
+    width: 88px;
+    height: 22px;
+    background-color:#d9d9d997;
+    margin-left: 28px;
+    margin-top: 13px;
+    margin-right: 13px;
+    color:white;
+    font-weight: 600;
+
+}
+.sale_btn
+{
+    background-color:#E9E5E2;
+    border-radius:5px;
+    padding: 2px 30px;
+    cursor: pointer;
+}
+.bay_info
+{
+    margin: 40px auto;
+    width: 1280px;
+    height: 280px;
+    background-color: #D5D5D5;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bay_box
+{
+    margin-top: 35px;
+    width: 490px;
+    height: 200px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.row_item_left
+{
+    text-align: left;
+}
+.row_item_right
+{
+    text-align: right;
+}
+.bay_title
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 13px;
+
+}
+.bay_descr
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.bay_final
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.bay_line
+{
+    width:100%;
+    border-bottom: 1px solid black;
+    margin-bottom: 35px;
+}
+.last
+{
+    width: 1283px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: right;
+}
+.btn_final
+{
+    background-color:black;
+    color:white;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px 63px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
