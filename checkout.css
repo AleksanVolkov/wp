@@ -37,8 +37,9 @@ p{
 {
     border-bottom: 1px solid black;
     width: 340px;
-    margin: 0 auto 22px;
+    margin: 0 auto 30px;
 }
+/*----------------------------------------------------ИНПУТЫ----------------------------------*/
 .input
 {
     width: 865px;
@@ -53,6 +54,8 @@ p{
     box-sizing:border-box;
 
 }
+
+
 .input_checkout
 {
     position: relative;
@@ -72,7 +75,7 @@ p{
     width: 22px;
     height: 22px;
     position: absolute;
-    right: 10px;
+    right: 20px;
     top: 50%;
     transform: translateY(-50%);
 
@@ -94,7 +97,7 @@ p{
     width: 34px;
     height: 34px;
     position: absolute;
-    right: 455px;
+    right: 465px;
     top: 17px;
 }
 .img_time
@@ -102,7 +105,7 @@ p{
     width: 34px;
     height: 34px;
     position: absolute;
-    right: 8px;
+    right: 20px;
     top: 17px;
 }
 textarea
@@ -115,7 +118,7 @@ textarea
    text-align: left;
    padding-left: 30px;
 
-   
+/*-------------------------------------------Окно заказа серое-------------------------------*/   
 }
 .sale_box
 {
@@ -160,14 +163,17 @@ textarea
 }
 .input_sale
 {
-    width: 88px;
-    height: 22px;
+    width: 118px;
+    height: 30px;
     background-color:#d9d9d997;
     margin-left: 28px;
     margin-top: 13px;
     margin-right: 13px;
     color:white;
     font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 5px;
 
 }
 .sale_btn
@@ -259,5 +265,14 @@ textarea
     padding: 15px 63px;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.4s;
+    border:1px solid black;
+}
+.btn_final:hover
+{
+    background-color: rgba(0, 0, 0, 0);
+    border:1px solid black;
+    color: black;
+    transition: all 0.4s;
 }
 
