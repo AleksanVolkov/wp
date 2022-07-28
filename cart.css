@@ -517,7 +517,7 @@ input[type='radio']::before {
 {
     width:100%;
     border-bottom: 1px solid black;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 .last
 {

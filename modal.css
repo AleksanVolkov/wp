@@ -1,0 +1,161 @@
+.modal
+{
+    width: 735px;
+    height: 770px;
+    background-color:black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+.modal_title
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:white;
+    margin-top: 60px;
+    margin-bottom: 33px;
+
+}
+.modal_descr
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:white;
+    width: 420px;
+    margin: 0 auto 55px;
+
+
+}
+.modal_descr a
+{
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:white;
+}
+.name_input
+{
+    margin: 0 auto;
+    margin-bottom: 26px;
+    position: relative;
+    
+
+}
+#name_input
+{
+    width: 540px;
+    height: 105px;
+    border-radius:10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    
+    
+}
+.fone_input
+{
+    margin: 0 auto;
+    margin-bottom: 33px;
+    position: relative;
+    
+   
+}
+#fone_input
+{
+    width: 540px;
+    height: 105px;
+    border-radius:10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    
+}
+.modal_btn
+{
+    width: 540px;
+    height: 105px;
+    border-radius:10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 29px;
+    margin: 0 auto 37px;
+    background-color: #8EBE4A;
+}
+.modal_btn a
+{
+    width: 540px;
+    height: 105px;
+    border-radius:10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 29px;
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+   
+}
+.conf
+{
+    box-sizing: border-box;
+    color:white;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.conf a{
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:white;
+}
+.star_one
+{
+    position:absolute;
+    top: 35px;
+    left: 45px;
+    color:#F11717;
+    font-size: 25px;
+}
+.star_two
+{
+    position:absolute;
+    top: 35px;
+    left: 45px;
+    color:#F11717;
+    font-size: 25px;
+}
+    
