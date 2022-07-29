@@ -1,37 +1,47 @@
 .modal
 {
-    width: 735px;
-    height: 770px;
+    width: 357px;
+    min-height: 385px;
     background-color:black;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+      
+    position: relative;
    
+}
+.modal_img
+{
+    width: 45px;
+    height: 46px;
+    position:absolute;
+    top: 8px;
+    left: 23px;
 }
 .modal_title
 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
+    font-size: 18px;
     font-weight: 600;
-    line-height: 44px;
+    line-height: 22px;
     letter-spacing: 0em;
     text-align: center;
     color:white;
-    margin-top: 60px;
-    margin-bottom: 33px;
+    margin-top: 30px;
+    margin-bottom: 16px;
 
 }
 .modal_descr
 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 12px;
     font-weight: 500;
-    line-height: 29px;
+    line-height: 15px;
     letter-spacing: 0em;
     text-align: center;
     color:white;
-    width: 420px;
-    margin: 0 auto 55px;
+    width: 210px;
+    margin: 0 auto 27px;
 
 
 }
@@ -39,9 +49,9 @@
 {
     text-decoration: underline;
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 12px;
     font-weight: 500;
-    line-height: 29px;
+    line-height: 15px;
     letter-spacing: 0em;
     text-align: center;
     color:white;
@@ -49,21 +59,21 @@
 .name_input
 {
     margin: 0 auto;
-    margin-bottom: 26px;
+    margin-bottom: 13px;
     position: relative;
     
 
 }
 #name_input
 {
-    width: 540px;
-    height: 105px;
+    width: 270px;
+    height: 60px;
     border-radius:10px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 500;
-    line-height: 29px;
-    padding-left: 50px;
+    line-height: 15px;
+    padding-left: 25px;
     box-sizing: border-box;
     outline: none;
     border: none;
@@ -73,21 +83,21 @@
 .fone_input
 {
     margin: 0 auto;
-    margin-bottom: 33px;
+    margin-bottom: 16px;
     position: relative;
     
    
 }
 #fone_input
 {
-    width: 540px;
-    height: 105px;
+    width: 270px;
+    height: 60px;
     border-radius:10px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 500;
-    line-height: 29px;
-    padding-left: 50px;
+    line-height: 15px;
+    padding-left: 25px;
     box-sizing: border-box;
     outline: none;
     border: none;
@@ -95,25 +105,28 @@
 }
 .modal_btn
 {
-    width: 540px;
-    height: 105px;
+    width: 270px;
+    height: 60px;
     border-radius:10px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 27px;
+    font-size: 14px;
     font-weight: 700;
-    line-height: 29px;
-    margin: 0 auto 37px;
+    line-height: 15px;
+    margin: 0 auto ;
+    /* margin-left: 91px; */
     background-color: #8EBE4A;
+    padding: 0;
+    box-sizing: border-box;
 }
 .modal_btn a
 {
-    width: 540px;
-    height: 105px;
+    width: 270px;
+    height: 60px;
     border-radius:10px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 27px;
+    font-size: 14px;
     font-weight: 700;
-    line-height: 29px;
+    line-height: 15px;
     color:white;
     text-decoration: none;
     text-transform: uppercase;
@@ -124,23 +137,27 @@
 {
     box-sizing: border-box;
     color:white;
-    font-family: Montserrat;
-    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 10px;
     letter-spacing: 0em;
     text-align: center;
+    margin-bottom: 25px;
+    margin-top: 20px;
 
 }
 .conf a{
     text-decoration: underline;
     font-family: 'Montserrat', sans-serif;
-    font-size:16px;
+    font-size:12px;
     font-weight: 400;
-    line-height: 29px;
+    line-height: 15px;
     letter-spacing: 0em;
     text-align: center;
     color:white;
+    margin-bottom: 20px;
+    
 }
 .star_one
 {

@@ -138,6 +138,7 @@ p{
     border-color: #B1B1B1;
     background-color: #0b75ef00;
     background-image: url('./images/50683595-0-noun-tick-2103587\ 1.png');
+    background-size: cover;
   }
 
 
@@ -182,6 +183,7 @@ font-weight: 400;
     border: 1px solid #B1B1B1;
     padding: 2px 7px;
     margin-right: 5px;
+    border-radius: 3px;
 
    
 }
@@ -189,8 +191,8 @@ font-weight: 400;
 {
     content: "+";
     border: 1px solid #B1B1B1;
-    padding: 2px 7px;
-    
+    padding: 2px 5px;
+    border-radius: 3px;
 }
 .prod-price
 {
