@@ -1,13 +1,26 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .modal
 {
     width: 357px;
     min-height: 385px;
     background-color:black;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
       
     position: relative;
+    border-radius: 15px;
    
 }
 .modal_img
@@ -74,7 +87,8 @@
     font-weight: 500;
     line-height: 15px;
     padding-left: 25px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     outline: none;
     border: none;
     
@@ -98,7 +112,8 @@
     font-weight: 500;
     line-height: 15px;
     padding-left: 25px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     outline: none;
     border: none;
     
@@ -116,7 +131,8 @@
     /* margin-left: 91px; */
     background-color: #8EBE4A;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .modal_btn a
 {
@@ -135,7 +151,8 @@
 }
 .conf
 {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     color:white;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;

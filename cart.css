@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
@@ -27,7 +34,8 @@ p{
     line-height: 30px;
     letter-spacing: 0.1em;
     text-align: left;
-    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+            box-sizing:border-box;
     width: 360px;;
     margin: 300px auto 30px;
     text-align: center;
@@ -52,21 +60,33 @@ p{
 {
     width: 1280px;
     margin: 0 auto;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 
 }
 .product_item
 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    
+    width: 1240px;
+    margin: 0 auto;
+    /* -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+     */
 }
 .prod-info
 {
     width: 640px;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 18px;
 
 }
@@ -75,12 +95,14 @@ p{
     position: absolute;
     top: -40px;
     right: 250px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 250px;
     height: 80px;
     background-color: #D5D5D5;
     padding: 18px 12px 4px 16px;
-    box-shadow: 0px 0px 4px 2px #96969640;
+    -webkit-box-shadow: 0px 0px 4px 2px #96969640;
+            box-shadow: 0px 0px 4px 2px #96969640;
 
 
 }
@@ -115,17 +137,27 @@ p{
     opacity: 0;
   }
   .prod_check+label {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    align-items: center;
-    user-select: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
   .prod_check+label::before {
     content: '';
     display: inline-block;
     width: 33px;
     height: 33px;
-    flex-shrink: 0;
-    flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
     border: 1px solid #B1B1B1;
     border-radius: 0.25em;
     margin-right: 0.5em;
@@ -151,8 +183,13 @@ p{
     height: 27px;
 }
 .prot_text{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;  
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;  
   max-width: 285px;
   font-family: 'Montserrat', sans-serif;    
   font-size: 21px;
@@ -196,8 +233,12 @@ font-weight: 400;
 }
 .prod-price
 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     position: relative;
     width: 640px;
     padding: 18px;
@@ -276,11 +317,16 @@ p{
 {
     width: 1280px;
     margin: 20px auto 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .pop_box_one{
     position: relative;
@@ -292,22 +338,26 @@ p{
 
 .payment_modal
 {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 270px;
     height: 100px;
     background-color: #D5D5D5;
     padding: 2px 12px 28px 16px;
-    box-shadow: 0px 0px 4px 2px #96969640;
+    -webkit-box-shadow: 0px 0px 4px 2px #96969640;
+            box-shadow: 0px 0px 4px 2px #96969640;
 
 }
 .delivery_modal
 {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 370px;
     height: 180px;
     background-color: #D5D5D5;
     padding: 20px 12px 28px 16px;
-    box-shadow: 0px 0px 4px 2px #96969640;
+    -webkit-box-shadow: 0px 0px 4px 2px #96969640;
+            box-shadow: 0px 0px 4px 2px #96969640;
 
     
 }
@@ -336,6 +386,8 @@ p{
 
 .row_deliveri
 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .radio_descr
@@ -366,7 +418,9 @@ input[type='radio']::before {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     background-color: white;
     border: 2px solid rgb(0, 0, 0);
   }
@@ -380,7 +434,9 @@ input[type='radio']::before {
     height: 15px;
     border-radius: 50%;
     background-color: rgb(0, 0, 0);
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     visibility: visible;
   }
 /*-------------------------------------------Окно заказа серое-------------------------------*/
@@ -390,7 +446,7 @@ input[type='radio']::before {
     height: 173px;
     background-color: black;
     border-radius: 5px;
-    margin-top: 57px;
+    margin-top: 40px;
     margin-left: 28px;
     position: relative;
 }
@@ -453,6 +509,8 @@ input[type='radio']::before {
     background-color: rgba(0, 0, 0, 0);
     border:1px solid black;
     color: black;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
     transition: all 0.4s;
 }
 .bay_info
@@ -461,8 +519,12 @@ input[type='radio']::before {
     width: 1280px;
     height: 280px;
     background-color: #D5D5D5;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    /* -webkit-box-pack: justify;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; */
 }
 
 .bay_box
@@ -470,10 +532,15 @@ input[type='radio']::before {
     margin-top: 35px;
     width: 490px;
     height: 200px;
+    margin-left: 295px;
 }
 .row{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .row_item_left
 {
@@ -525,8 +592,14 @@ input[type='radio']::before {
 {
     width: 1283px;
     margin: 0 auto;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    justify-content: right;
+    /* -webkit-justify-content: right;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right; */
+            margin-left: 70%;
 }
 .btn_final
 {
@@ -537,6 +610,8 @@ input[type='radio']::before {
     padding: 15px 63px;
     border-radius: 5px;
     cursor: pointer;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
     transition: all 0.4s;
     border:1px solid black;
 }
